@@ -10,10 +10,95 @@
 
 
 <body>
-    <div id="calc-outline">
+    <div id="shadow-div"></div> <!-- shadow div to center the calculator box and info div -->  
 
+    <div id="calc-box">
+        <div id="calculator">
+
+            <div id="top-bar">
+                <div id="display">
+                    <div id="prev-display"></div>
+                    <div id="curr-display" class="normal"></div>
+                    </div>
+                <div id="backspace-div">
+                    <button id="delete">Del</button>
+                </div>
+            </div>
+
+            <div id="main-div">
+                <div id="side-bar">
+                    <button id="square" class="function-button one-func">X<sup>2</sup></button>
+                    <button id="square-root" class="function-button one-func">√</button>
+                    <button id="factioral" class="function-button one-func">x!</button>
+                    <button id="percentage" class="function-button one-func">%</button>
+                    <button id="clear" class="function-button">AC</button>
+                </div>
+
+                <div id="button-div">
+                    <div id="first-row" class="row">
+                        
+                        <button id="pos-neg" class="function-button">+/-</button>
+                        <button id="variable-root" class="function-button two-func"><sup>x</sup>√</button>
+                        <button id="power" class="function-button two-func">X<sup>y</sup></button>
+                        <button id="divide" class="operation-button two-func">÷</button>
+                    </div>
+
+                    <div id="second-row" class="row">
+                        <button id="seven" class="number-button">7</button>
+                        <button id="eight" class="number-button">8</button>
+                        <button id="nine" class="number-button">9</button>
+                        <button id="multiply" class="operation-button two-func">X</button>
+                    </div>
+
+                    <div id="third-row" class="row">
+                        <button id="four" class="number-button">4</button>
+                        <button id="five" class="number-button">5</button>
+                        <button id="six" class="number-button">6</button>
+                        <button id="subtract" class="operation-button two-func">-</button>
+                    </div>
+
+                    <div id="fourth-row" class="row">
+                        <button id="one" class="number-button">1</button>
+                        <button id="two" class="number-button">2</button>
+                        <button id="three" class="number-button">3</button>
+                        <button id="add" class="operation-button two-func">+</button>
+                    </div>
+
+                    <div id="fifth-row" class="row">
+                        <button id="zero" class="number-button">0</button>
+                        <button id="decimal">.</button>
+                        <button id="equals" class="operation-button">=</button>
+                    </div>
+                </div>  
+
+            </div>    
+        </div>
+
+        <div id="footer">
+            <h6>Webpage by: Shaheen Moore</h6>
+            <a href="https://github.com/samoore036" id="footer-logo"><img src="images/git-logo.webp" height="20px" width="20px"></a>
+        </div>
         
     </div>
+
+    <div id="info">
+        <div id="info-header">
+            <p>--Useful shortcuts--</p>
+        </div>
+        <div id="list-box">
+            <li>Hide/show menu -- ctrl</li>
+            <li>Clear entire calculator -- <br>esc or C</br></li>
+            <li>Delete an entry -- <br>backspace or Del</br></li>
+            <li> +/- -- arrow up or down</li>
+            <li> X<sup>2</sup> -- ^</li>
+            <li>√ -- z</li>
+            <li>x! -- !</li>
+            <li><sup>x</sup>√ -- `</li>
+            <li>X <sup>y</sup> -- ~</li>
+            <li>divide -- /</li>
+            <li>multiply -- *</li>
+    </div>
+
 </body>
 
 
